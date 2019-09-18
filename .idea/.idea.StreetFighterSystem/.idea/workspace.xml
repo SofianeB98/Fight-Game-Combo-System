@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27822e74-2815-42bc-be8f-f4c60e29b2fc" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@0.9.6-preview/InputSystem/Controls/InputControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@0.9.6-preview/InputSystem/Devices/Gamepad.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarInputDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@0.9.6-preview/InputSystem/Controls/AxisControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../RimeCharacterController/RimeCharacterController/Assets/Project/Scripts/Player/CompleteCharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarFighterManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@0.9.6-preview/InputSystem/Controls/ButtonControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86990F6A-E769-4159-A166-10C06C9D47D6/63/55095907/GamepadButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hadouken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@0.9.6-preview/InputSystem/Controls/InputControl.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@0.9.6-preview/InputSystem/Controls/ButtonControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarInputDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity Recorder/Editor/Sources/EditableLabel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity Recorder/Editor/Sources/Helpers/UIElementHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity Recorder/Editor/Sources/PanelSplitter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity Recorder/Editor/Sources/RecorderItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Unity Recorder/Editor/Sources/RecorderWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarFighterManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hadouken.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Qv5YlKAsDUAR8zCI6XUhJJL21O" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27822e74-2815-42bc-be8f-f4c60e29b2fc" name="Default Changelist" comment="" />
+      <created>1568638283120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568638283120</updated>
+      <workItem from="1568638296231" duration="976000" />
+      <workItem from="1568646102690" duration="893000" />
+      <workItem from="1568647053070" duration="6615000" />
+      <workItem from="1568663460042" duration="4859000" />
+      <workItem from="1568715359403" duration="2698000" />
+      <workItem from="1568730983216" duration="13319000" />
+      <workItem from="1568750672664" duration="1826000" />
+      <workItem from="1568752521593" duration="257000" />
+      <workItem from="1568793623685" duration="3958000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

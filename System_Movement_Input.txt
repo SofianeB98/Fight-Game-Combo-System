@@ -1,0 +1,14 @@
+Anim :
+	- Avancer
+	- Reculer
+	- Idle
+	- Idle Crounch (en crounch, on ne peut plus avancer, ni reculer)
+	- Jump
+	- Coup de poing
+
+Le perso se ré oriente seul vers l'adversaire
+Hadoken = mouvement demi cercle bas + coup de poing (le derniere dir = vers l'adervsaire)
+
+https://streetfighter.com/how-to-play/?lang=fr
+
+https://phet.colorado.edu/sims/html/trig-tour/latest/trig-tour_en.html

@@ -2324,6 +2324,7 @@ MonoBehaviour:
   hadoukenPrefab: {fileID: 8831963453317649586, guid: db360ba9166e3654d8505198b8723240,
     type: 3}
   hadoukenParent: {fileID: 2695725032590897949}
+  impulse: {fileID: 0}
 --- !u!114 &1342237175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2361,6 +2362,7 @@ MonoBehaviour:
   maxComboListSize: 12
   avatarCombos:
   - {fileID: 11400000, guid: 40b79c75987f40c4089e8fafbf35057b, type: 2}
+  - {fileID: 11400000, guid: 0a5d0e50bfc641f49ae105f02f0f4f50, type: 2}
   inputs:
   - {fileID: 11400000, guid: febeb6434b8909742a5b5ea6a3719d3f, type: 2}
   - {fileID: 11400000, guid: 3d390edebf3a2aa4eb63b85ab2a14696, type: 2}

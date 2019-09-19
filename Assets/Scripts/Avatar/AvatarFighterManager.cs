@@ -12,8 +12,8 @@ public class AvatarFighterManager : MonoBehaviour
     [Header("Combo Manager")]
     [SerializeField] private List<Utils.ComboInput> currentCombo = new List<Utils.ComboInput>();
     [SerializeField] private int maxComboListSize = 20;
-    [SerializeField] private List<Utils.ComboData> avatarCombos = new List<Utils.ComboData>();
-    [SerializeField] private List<Utils.InputData> inputs = new List<Utils.InputData>();
+    [SerializeField] private List<ComboData> avatarCombos = new List<ComboData>();
+    [SerializeField] private List<InputData> inputs = new List<InputData>();
     [SerializeField] private Utils.ComboInput lastAxis = Utils.ComboInput.Carre;
     
     [Header("Combo Timer")] 
@@ -52,7 +52,7 @@ public class AvatarFighterManager : MonoBehaviour
             lastAxis = Utils.ComboInput.Carre;
         }
         
-        foreach (Utils.InputData inputData in inputs)
+        foreach (InputData inputData in inputs)
         {
             if (inputData.flags == flag)
             {
@@ -91,7 +91,7 @@ public class AvatarFighterManager : MonoBehaviour
 
     private void ComboManager(List<Utils.ComboInput> currentCombo)
     {
-        foreach (Utils.ComboData combos in avatarCombos)
+        foreach (ComboData combos in avatarCombos)
         {
             if (CheckCombo(currentCombo, combos.inputsCombo))
             {
@@ -111,19 +111,29 @@ public class AvatarFighterManager : MonoBehaviour
 
     private bool CheckCombo(List<Utils.ComboInput> currentCombo, List<Utils.ComboInput> checkCombo)
     {
-        if (currentCombo.Count != checkCombo.Count)
+        if (checkCombo.Count > currentCombo.Count)
             return false;
-
+        
+        if (currentCombo[currentCombo.Count - 1] != checkCombo[checkCombo.Count - 1])
+            return false;
+        
+        
+        int correctInput = 0;
         for (int i = 0; i < currentCombo.Count; i++)
         {
-            if (currentCombo[i] != checkCombo[i])
-            {
-                Debug.Log("le combo est pas bon a l'input + '"  + i);
-                return false;
-            }
+            if (currentCombo[i] == checkCombo[correctInput])
+                correctInput++;
+            else
+                correctInput = 0;
         }
-
-        return true;
+        
+        Debug.Log("correct = " + correctInput);
+        if (correctInput == checkCombo.Count)
+            return true;
+        else
+            return false;
+        
+        
     }
 
     #endregion

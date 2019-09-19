@@ -34,8 +34,8 @@ public class AvatarController : MonoBehaviour
 
     [Header("Jump Section")] 
     [SerializeField, Range(0.3f, 0.8f)] private float jumpZoneY = 0.4f;
-    [SerializeField] private Utils.InputData upLeft;
-    [SerializeField] private Utils.InputData upRight;
+    [SerializeField] private InputData upLeft;
+    [SerializeField] private InputData upRight;
     [SerializeField] private float jumpHeight = 8;
     [SerializeField] private float jumpTimeToReachMax = 0.5f;
     [SerializeField] private AnimationCurve jumpBehaviour;

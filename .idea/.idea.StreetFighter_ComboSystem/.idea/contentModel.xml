@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\sofia\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -12,7 +12,13 @@
             <e p="AvatarFighterManager.cs" t="Include" />
             <e p="AvatarInputDetector.cs" t="Include" />
           </e>
+          <e p="CombosData" t="Include">
+            <e p="ComboData.cs" t="Include" />
+          </e>
           <e p="Hadouken.cs" t="Include" />
+          <e p="InputsData" t="Include">
+            <e p="InputData.cs" t="Include" />
+          </e>
           <e p="Utils.cs" t="Include" />
         </e>
       </e>

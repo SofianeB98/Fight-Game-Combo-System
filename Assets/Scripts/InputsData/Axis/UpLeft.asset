@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 2fb7f17e082f5ef468ed4c0f19a4d19c, type: 3}
   m_Name: UpLeft
-  m_EditorClassIdentifier: Assembly-CSharp::Utils/InputData
+  m_EditorClassIdentifier: 
   input: 11
   flags: 0
   button: 0

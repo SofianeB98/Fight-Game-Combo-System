@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 2fb7f17e082f5ef468ed4c0f19a4d19c, type: 3}
   m_Name: Rond
-  m_EditorClassIdentifier: Assembly-CSharp::Utils/InputData
+  m_EditorClassIdentifier: 
   input: 2
   flags: 1
-  button: 0
+  button: 5
   xInputZone: {x: 0, y: 0}
   yInputZone: {x: 0, y: 0}

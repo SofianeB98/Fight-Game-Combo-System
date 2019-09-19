@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d515255-06e0-4f2a-9dde-e6736aee1326" name="Default Changelist" comment="" />
@@ -12,11 +12,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CombosData/ComboData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputsData/InputData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarFighterManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputsData/InputData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CombosData/ComboData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarFighterManager.cs" />
       </list>
     </option>
@@ -67,6 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568811073532</updated>
       <workItem from="1568811086993" duration="226000" />
+      <workItem from="1568894272890" duration="571000" />
+      <workItem from="1568895717064" duration="251000" />
     </task>
     <servers />
   </component>
@@ -80,7 +90,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

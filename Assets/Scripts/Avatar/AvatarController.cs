@@ -50,6 +50,7 @@ public class AvatarController : MonoBehaviour
 
     [Header("Fighting")] 
     [SerializeField] private bool isPunching = false;
+    [SerializeField] private List<string> triggerFightingAnimationName = new List<string>();
     
     [Header("Hadoken")] 
     [SerializeField] private Hadouken hadoukenPrefab;
@@ -70,6 +71,8 @@ public class AvatarController : MonoBehaviour
     {
 	    get { return grounded; }
     }
+
+    public bool IsPunching => isPunching;
 
     #endregion
     
@@ -121,7 +124,7 @@ public class AvatarController : MonoBehaviour
     {
         dir = dir.normalized;
 
-        isCrounching = dir.y <= crounchingZone;
+        isCrounching = dir.y <= crounchingZone && grounded;
         anim.SetBool("isCrounching", isCrounching);
         
         dir *= speed;
@@ -223,22 +226,35 @@ public class AvatarController : MonoBehaviour
 
     public void Punching()
     {
-	    anim.SetTrigger("Punching");
+	    Debug.Log("Punching !");
+	    
 	    isPunching = true;
+	    
+	    foreach (var trigger in triggerFightingAnimationName)
+	    {
+		    anim.ResetTrigger(trigger);
+	    }
     }
 
     public void ResetPunchingBool()
     {
-	    Debug.Log("Reset Punching");
+	    Debug.Log("Reset Punching Bool");
+	    
 	    isPunching = false;
-	    Debug.Log("puching = " + isPunching);
     }
 
     public void Hadoken()
     {
+	    Debug.Log("Hadoken !");
+	    
 	    isPunching = true;
 	    UpdateMovement(Vector3.zero);
-	    anim.ResetTrigger("Punching");
+
+	    foreach (var trigger in triggerFightingAnimationName)
+	    {
+		    anim.ResetTrigger(trigger);
+	    }
+	    
 	    currentHadouken = Instantiate(hadoukenPrefab, hadoukenParent);
 	    currentHadouken.Initialise(transform.forward);
     }

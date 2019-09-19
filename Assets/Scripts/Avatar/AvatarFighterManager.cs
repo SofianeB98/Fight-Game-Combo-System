@@ -12,9 +12,12 @@ public class AvatarFighterManager : MonoBehaviour
     [Header("Combo Manager")]
     [SerializeField] private List<Utils.ComboInput> currentCombo = new List<Utils.ComboInput>();
     [SerializeField] private int maxComboListSize = 20;
-    [SerializeField] private List<ComboData> avatarCombos = new List<ComboData>();
+    [SerializeField, 
+     Tooltip("Les combos doivent être rangé du plus long au plus court")] private List<ComboData> avatarCombos = new List<ComboData>();
     [SerializeField] private List<InputData> inputs = new List<InputData>();
     [SerializeField] private Utils.ComboInput lastAxis = Utils.ComboInput.Carre;
+    [SerializeField, Tooltip("le count minimal pour reset le current combo")] private int minComboLenghtToResetCombo = 4;
+    private int lastCount = 0;
     
     [Header("Combo Timer")] 
     [SerializeField] private float maxDelayBetweenTwoInputs = 0.25f;
@@ -50,6 +53,7 @@ public class AvatarFighterManager : MonoBehaviour
         if (flag == 0 && dir == Vector2.zero)
         {
             lastAxis = Utils.ComboInput.Carre;
+            return;
         }
         
         foreach (InputData inputData in inputs)
@@ -85,8 +89,13 @@ public class AvatarFighterManager : MonoBehaviour
                 }
             }
         }
+
+        if (currentCombo.Count > lastCount)
+        {
+            ComboManager(currentCombo);
+            lastCount = currentCombo.Count;
+        }
         
-        ComboManager(currentCombo);
     }
 
     private void ComboManager(List<Utils.ComboInput> currentCombo)
@@ -98,7 +107,7 @@ public class AvatarFighterManager : MonoBehaviour
                 if (combos.yRotation >= avatar.transform.eulerAngles.y - 0.1f && combos.yRotation <= avatar.transform.eulerAngles.y + 0.1f)
                 {
                     anim.SetTrigger(combos.triggerName);
-                    currentCombo.Clear();
+                    break;
                 }
             }
         }
@@ -125,11 +134,18 @@ public class AvatarFighterManager : MonoBehaviour
                 correctInput++;
             else
                 correctInput = 0;
+
+            if (correctInput == checkCombo.Count)
+                break;
         }
-        
-        Debug.Log("correct = " + correctInput);
+
         if (correctInput == checkCombo.Count)
+        {
+            if(correctInput >= minComboLenghtToResetCombo)
+                currentCombo.Clear();
+            
             return true;
+        }
         else
             return false;
         

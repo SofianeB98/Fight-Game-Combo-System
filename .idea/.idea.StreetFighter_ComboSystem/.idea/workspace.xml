@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CombosData/ComboData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarInputDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputsData/InputData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,6 +25,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputsData/InputData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CombosData/ComboData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarInputDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Avatar/AvatarFighterManager.cs" />
       </list>
@@ -76,7 +78,8 @@
       <updated>1568811073532</updated>
       <workItem from="1568811086993" duration="226000" />
       <workItem from="1568894272890" duration="571000" />
-      <workItem from="1568895717064" duration="251000" />
+      <workItem from="1568895717064" duration="2103000" />
+      <workItem from="1568897991014" duration="1189000" />
     </task>
     <servers />
   </component>

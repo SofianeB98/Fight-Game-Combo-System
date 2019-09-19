@@ -54,13 +54,13 @@ public class AvatarInputDetector : MonoBehaviour
 
         #region Fighting
 
-        if (!avatarController.IsCrounching && avatarController.Grounded)
+        if (!avatarController.IsCrounching && avatarController.Grounded && !avatarController.IsPunching)
         {
             if (gamePad[punching].isPressed && !isPressed)
             {
                 avatarFighterManager.AddCombo(punching, 1, Vector2.zero);
                 isPressed = true;
-                avatarController.Punching();
+                //avatarController.Punching();
             }
             else if(!gamePad[punching].isPressed)
             {

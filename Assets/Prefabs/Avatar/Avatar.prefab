@@ -2321,6 +2321,8 @@ MonoBehaviour:
   crounchingZone: -0.4
   isCrounching: 0
   isPunching: 0
+  triggerFightingAnimationName:
+  - Punching
   hadoukenPrefab: {fileID: 8831963453317649586, guid: db360ba9166e3654d8505198b8723240,
     type: 3}
   hadoukenParent: {fileID: 2695725032590897949}
@@ -2363,6 +2365,7 @@ MonoBehaviour:
   avatarCombos:
   - {fileID: 11400000, guid: dd00de62625deef4b81b2df098d7bfd4, type: 2}
   - {fileID: 11400000, guid: e796f234d7c265e408341ebfb9725ee9, type: 2}
+  - {fileID: 11400000, guid: abb8dc321bc604747a0e790f72d241ca, type: 2}
   inputs:
   - {fileID: 11400000, guid: febeb6434b8909742a5b5ea6a3719d3f, type: 2}
   - {fileID: 11400000, guid: 3e6b2a21aed7d584da188ba85a97581f, type: 2}

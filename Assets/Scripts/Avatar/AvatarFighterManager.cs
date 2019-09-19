@@ -35,6 +35,7 @@ public class AvatarFighterManager : MonoBehaviour
         if (Time.time > currentDelay && currentCombo.Count > 0)
         {
             currentCombo.Clear();
+            lastCount = 0;
         }
     }
 
@@ -141,8 +142,12 @@ public class AvatarFighterManager : MonoBehaviour
 
         if (correctInput == checkCombo.Count)
         {
-            if(correctInput >= minComboLenghtToResetCombo)
+            if (correctInput >= minComboLenghtToResetCombo)
+            {
                 currentCombo.Clear();
+                lastCount = 0;
+            }
+                
             
             return true;
         }
